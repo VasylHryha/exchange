@@ -2,6 +2,7 @@ import React from "react";
 import { HashRouter as Router, Route, Link } from "react-router-dom";
 
 import HomePage from "./components/HomePage.jsx";
+import Header from "./components/Header.jsx"
 
 function Routes() {
     return (
@@ -23,7 +24,7 @@ function Routes() {
           </ul>
   
           <hr />
-  
+          <Header/>
           <Route exact path="/" component={HomePage} />
           <Route path="/about" component={About} />
           <Route path="/topics" component={Topics} />

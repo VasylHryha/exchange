@@ -1,5 +1,6 @@
 import React from "react";
 import { render } from "react-dom";
+import '../scss/style.sass';
 
 import Routes from './routes.jsx';
 

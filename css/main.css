@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #ececec;
+}
+
+.home {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 50px auto;
+  background: #fff;
+  border-radius: 5px;
+  padding: 15px 50px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 1300px;
+  margin: auto;
+}
+
+.overview {
+  max-width: 1300px;
+  margin: auto;
+}
+
+.navbar {
+  background-color: #20232A;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-width: 80px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar__menuItemsPosition {
+  display: inline;
+  margin-left: 20px;
+  position: relative;
+}
+
+.navbar__menuItems {
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+  margin-right: 20px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+.navbar__menuItems:hover {
+  color: #61DAFB;
+  border-bottom: 2px solid #61DAFB;
+  background-color: #282c35;
+}
+
+.navbar__list {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  min-width: 80px;
+  height: 60px;
+}
+
+.navbar__selektor {
+  list-style-type: none;
+}
+
+.searchImage {
+  margin-top: 2px;
+  height: 24px;
+  width: 24px;
+}
+
+.searchButton {
+  cursor: pointer;
+  border: none;
+  background-color: #393A3D;
+  outline: none;
+  float: right;
+  height: 32px;
+  border-radius: 0 5px 5px 0;
+}
+
+.searchField {
+  height: 32px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  padding-left: 5px;
+  background-color: #393a3d;
+  border: 1px solid #393a3d;
+  color: white;
+}
+
+.searchField:focus {
+  border-color: #4dabf7;
+  -webkit-box-shadow: inset 0 1px 1px rgba(27, 55, 212, 0.013), 0 0 8px rgba(34, 139, 230, 0.5);
+          box-shadow: inset 0 1px 1px rgba(27, 55, 212, 0.013), 0 0 8px rgba(34, 139, 230, 0.5);
+  -webkit-transition: all  ease-in-out;
+  transition: all  ease-in-out;
+  border: 1px solid #4dabf7;
+}
+
+.logo-img {
+  height: 60px;
+  width: 60px;
+}
+
+.logo {
+  border: none;
+  background-color: #20232A;
+  cursor: pointer;
+  outline: none;
+}
+
+img {
+  height: 60px;
+  width: 60px;
+}
+
+.logo {
+  border: none;
+  background-color: #20232A;
+  cursor: pointer;
+  outline: none;
+}
+/*# sourceMappingURL=main.css.map */
