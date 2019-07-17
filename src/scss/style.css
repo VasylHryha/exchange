@@ -1,0 +1,338 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+@import url(e:\disk D\programming\exchange\src\scss\blocks\styleOrenda.css);
+@import url(e:\disk D\programming\exchange\node_modules\antd\dist\antd.css);
+@import url(e:\disk D\programming\exchange\src\scss\blocks\styleRegistr.css);
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 1300px;
+  margin: auto;
+}
+
+.overview {
+  max-width: 1300px;
+  margin: auto;
+}
+
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+.navbar {
+  background-color: #20232A;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+.navbar-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-width: 80px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar__menuItemsPosition {
+  display: inline;
+  margin-left: 20px;
+  position: relative;
+}
+
+.navbar__menuItems {
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+  margin-right: 20px;
+  padding-bottom: 21px;
+  padding-top: 21px;
+}
+
+.navbar__menuItems:hover {
+  color: #61DAFB;
+  border-bottom: 2px solid #61DAFB;
+  background-color: #282c35;
+}
+
+.navbar__list {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  min-width: 80px;
+  height: 60px;
+}
+
+.navbar__selektor {
+  list-style-type: none;
+  margin-bottom: 0;
+}
+
+.searchImage {
+  margin-top: 2px;
+  height: 24px;
+  width: 24px;
+}
+
+.searchButton {
+  cursor: pointer;
+  border: none;
+  background-color: #393A3D;
+  outline: none;
+  float: right;
+  height: 32px;
+  border-radius: 0 5px 5px 0;
+}
+
+.searchField {
+  background-color: #393a3d;
+}
+
+.logo-img {
+  height: 60px;
+  width: 60px;
+}
+
+.logo {
+  border: none;
+  background-color: #20232A;
+  cursor: pointer;
+  outline: none;
+}
+
+img {
+  height: 60px;
+  width: 60px;
+}
+
+.logo {
+  border: none;
+  background-color: #20232A;
+  cursor: pointer;
+  outline: none;
+}
+
+.description {
+  min-height: 600px;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#f2f5fa), to(#4287ed));
+  background: linear-gradient(to top, #f2f5fa, #4287ed);
+}
+
+.descriptionStaff {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#mainLogo {
+  height: 400px;
+  width: 400px;
+}
+
+.descriptionTitle {
+  width: 400px;
+}
+
+.wrap-overview {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 350px;
+  border-bottom: 1px solid black;
+  margin-bottom: 50px;
+}
+
+.overview-content {
+  height: 100%;
+  font-size: 17px;
+  margin-top: 100px;
+  max-width: 350px;
+  line-height: 1.7;
+}
+
+.footer-wrap {
+  height: 400px;
+  background: #2c353a;
+  border-top: 2px solid #61DAFB;
+}
+
+.footer-wrap:hover {
+  -webkit-box-shadow: inset 0 1px 1px rgba(27, 55, 212, 0.013), 0 0 10px rgba(34, 139, 230, 0.5);
+          box-shadow: inset 0 1px 1px rgba(27, 55, 212, 0.013), 0 0 10px rgba(34, 139, 230, 0.5);
+  -webkit-transition: all  0.1s;
+  transition: all  0.1s;
+  border-top: 2px solid #4dabf7;
+}
+
+.inputBlock {
+  padding: 45px;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.04204);
+          box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.04204);
+  border-radius: 3px;
+  width: 500px;
+  padding-bottom: 20px;
+  margin-top: -40px;
+}
+
+.inputBlock__wrapperBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-top: 150px;
+}
+
+.top {
+  text-align: center;
+}
+
+.top h2 {
+  font-size: 28px;
+}
+
+.top p {
+  font-size: 15px;
+  line-height: 21px;
+  letter-spacing: 0.1px;
+  color: #202002;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  margin-bottom: 35px;
+}
+
+.login-form-button {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.login-form-forgot {
+  float: right;
+}
+
+.registerNow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.carusel-conteiner {
+  display: block;
+  width: 450px;
+  height: 300px;
+  margin: 20 auto 20 auto;
+  position: relative;
+}
+
+.carusel-slider {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.btn-conteiner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 30px;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+}
+
+.btn {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  height: 100%;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.btnLeft {
+  padding-right: 35px;
+}
+
+.btnRight {
+  padding-left: 35px;
+}
+
+.arrow {
+  width: 30px;
+  height: 30px;
+}
+
+.btnLeft:hover {
+  background-color: rgba(117, 190, 218, 0.3);
+  -webkit-box-shadow: 25px 0 5px rgba(117, 190, 218, 0.3);
+          box-shadow: 25px 0 5px rgba(117, 190, 218, 0.3);
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.btnRight:hover {
+  background-color: rgba(117, 190, 218, 0.3);
+  -webkit-box-shadow: -25px 0 5px rgba(117, 190, 218, 0.3);
+          box-shadow: -25px 0 5px rgba(117, 190, 218, 0.3);
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+.btnLeft {
+  background-color: rgba(117, 190, 218, 0.1);
+  -webkit-box-shadow: 25px 0 5px rgba(117, 190, 218, 0.1);
+          box-shadow: 25px 0 5px rgba(117, 190, 218, 0.1);
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.btnRight {
+  background-color: rgba(117, 190, 218, 0.1);
+  -webkit-box-shadow: -25px 0 5px rgba(117, 190, 218, 0.1);
+          box-shadow: -25px 0 5px rgba(117, 190, 218, 0.1);
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+/*# sourceMappingURL=style.css.map */

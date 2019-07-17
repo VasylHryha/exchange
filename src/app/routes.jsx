@@ -2,33 +2,38 @@ import React from "react";
 import { HashRouter as Router, Route, Link } from "react-router-dom";
 
 import HomePage from "./components/HomePage.jsx";
-import Header from "./components/Header.jsx"
+import Header from "./components/Header.jsx";
+import Footer from "./components/Footer.jsx";
+import Main from "./components/Main.jsx";
+
+
+import { Button, Radio, Icon } from 'antd';
+import InputBlock from "./components/InputBlock.jsx";
+
+import FormInput from "./components/FormInput.jsx"
+import FormRegistration from "./components/FormRegistration.jsx"
+import Slider from "./components/Slider.jsx"
+
 
 function Routes() {
     return (
       <Router>
-        <div>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/topics">Topics</Link>
-            </li>
-            <li>
-              <Link to="/aaa">HeHeHe</Link>
-            </li>
-          </ul>
-  
-          <hr />
+        <div >
+                    
           <Header/>
-          <Route exact path="/" component={HomePage} />
+          <Slider/>
+          <Route exact path="/homePage" component={HomePage} />
           <Route path="/about" component={About} />
           <Route path="/topics" component={Topics} />
           <Route path="/aaa" component={()=>"fuck you"} /> 
+          <Route exact path={["/","/formInput"]} component={FormInput} />
+          <Route path="/formRegistration" component={FormRegistration} />
+
+          
+          <Footer/>
+          
+          
+          
         </div>
       </Router>
     );
@@ -36,9 +41,31 @@ function Routes() {
   
   function About() {
     return (
-      <div>
-        <h2>About</h2>
-      </div>
+      <main>
+            <div className="overview">
+                    <div className="wrap-overview">
+                        <div className="overview-content">
+                                <p>Build encapsulated components that manage their own state, then compose them to make complex UIs.</p>
+        
+                                <p>Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep state out of the DOM.</p>
+                        </div>
+            
+                        <div className="overview-content">
+                            <p>Build encapsulated components that manage their own state, then compose them to make complex UIs.</p>
+        
+                            <p> Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep state out of the DOM.</p>
+                        </div>
+            
+                        <div className="overview-content">
+                            <p>Build encapsulated components that manage their own state, then compose them to make complex UIs.</p>
+        
+                            <p>Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep state out of the DOM.</p>
+                        </div>
+            
+                    </div>
+        
+            </div>
+    </main>
     );
   }
   
